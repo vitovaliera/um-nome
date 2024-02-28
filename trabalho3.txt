@@ -1,0 +1,14 @@
+1 - Explique as diferenças entre 3 linguagens de programação
+R: 3 linguagens de programação são: Python, Java e C++
+Python: a sintaxe é simples e legível, favorecendo a produtividade; possui uma linguagem de tipagem dinâmica; gerenciamento automático de memória; Suporta programação orientada a objetos, funcional e procedural; Geralmente mais lento em comparação com 
+
+Java: Desenvolvimento web, automação, aprendizado de máquina, ciência de dados; Grande comunidade, especialmente ativa em ciência de dados.
+Java: tem uma sintaxe mais estruturada e semelhante a C++, com forte orientação a objetos; Linguagem de tipagem estática; Gerenciamento automático de memória; Principalmente orientada a objetos; Desempenho intermediário, beneficia-se da máquina virtual Java; Desenvolvimento empresarial, aplicações móveis Android, sistemas distribuídos; Ampla adoção empresarial, vasto conjunto de bibliotecas e frameworks.
+
+C++: Sintaxe mais complexa, especialmente em relação à manipulação de ponteiros e gerenciamento de memória; Linguagem de tipagem estática; Requer gerenciamento manual de memória; Orientada a objetos e procedural; Alta performance, pois é compilada diretamente para código de máquina; Jogos, sistemas embarcados, software de sistema, aplicações de baixo nível; Comunidade robusta, especialmente no desenvolvimento de sistemas e jogos.
+
+a - Tente fazer um código mínimo em cada uma delas
+R: 
+
+b - Tente executar o seu código
+R:
