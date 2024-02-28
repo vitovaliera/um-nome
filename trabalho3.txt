@@ -1,14 +1,25 @@
 1 - Explique as diferenças entre 3 linguagens de programação
-R: 3 linguagens de programação são: Python, Java e C++
-Python: a sintaxe é simples e legível, favorecendo a produtividade; possui uma linguagem de tipagem dinâmica; gerenciamento automático de memória; Suporta programação orientada a objetos, funcional e procedural; Geralmente mais lento em comparação com 
+R: 3 linguagens de programação são: Python, PHP e C++
+Python: Versátil e usado em várias áreas, incluindo desenvolvimento web, automação, ciência de dados e aprendizado de máquina; Suporta programação orientada a objetos, funcional e procedural; Gerenciamento automático de memória com coleta de lixo; Sintaxe simples e legível; Grande comunidade, ativa em diversas áreas, com uma variedade de bibliotecas e frameworks; Desenvolvimento web, automação, aprendizado de máquina, ciência de dados.
 
-Java: Desenvolvimento web, automação, aprendizado de máquina, ciência de dados; Grande comunidade, especialmente ativa em ciência de dados.
-Java: tem uma sintaxe mais estruturada e semelhante a C++, com forte orientação a objetos; Linguagem de tipagem estática; Gerenciamento automático de memória; Principalmente orientada a objetos; Desempenho intermediário, beneficia-se da máquina virtual Java; Desenvolvimento empresarial, aplicações móveis Android, sistemas distribuídos; Ampla adoção empresarial, vasto conjunto de bibliotecas e frameworks.
+PHP: Projetado especificamente para desenvolvimento web do lado do servidor, com foco em criar páginas dinâmicas; Principalmente usado de forma procedural, mas suporta programação orientada a objetos; Gerenciamento automático de memória; Sintaxe orientada a scripts com foco em desenvolvimento web; Comunidade forte no desenvolvimento web, com suporte extensivo em servidores web e frameworks; Desenvolvimento web do lado do servidor, criação de páginas dinâmicas.
 
-C++: Sintaxe mais complexa, especialmente em relação à manipulação de ponteiros e gerenciamento de memória; Linguagem de tipagem estática; Requer gerenciamento manual de memória; Orientada a objetos e procedural; Alta performance, pois é compilada diretamente para código de máquina; Jogos, sistemas embarcados, software de sistema, aplicações de baixo nível; Comunidade robusta, especialmente no desenvolvimento de sistemas e jogos.
+C++: Linguagem de programação geral, com ênfase em desempenho, utilizada em sistemas embarcados, jogos e desenvolvimento de software de sistema; Suporta programação orientada a objetos e procedural, com destaque para desempenho; Requer gerenciamento manual de memória; Sintaxe mais complexa, especialmente em relação a manipulação de ponteiros e gerenciamento de memória; Comunidade robusta, especialmente em jogos, sistemas de baixo nível e desenvolvimento de software de sistema; Jogos, sistemas embarcados, software de sistema, aplicações de desempenho crítico.
 
 a - Tente fazer um código mínimo em cada uma delas
-R: 
+R: Python - print("Prazer, me chamo Vito!")
+
+C++ - #include <iostream>
+
+int main() {
+    std::cout << "Prazer, me chamo Vito!" << std::endl;
+    return 0;
+}
+
+PHP - <?php
+echo "Prazer, me chamo Vito!";
+?>
+
 
 b - Tente executar o seu código
 R:
