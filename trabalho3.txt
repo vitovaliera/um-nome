@@ -10,17 +10,29 @@ a - Tente fazer um código mínimo em cada uma delas
 R: Python - print("Prazer, me chamo Vito!")
 https://github.com/vitovaliera/um-nome/blob/main/print%20python.png
 
+PHP - <?php
+echo "Prazer, me chamo Vito!";
+?>
+https://github.com/vitovaliera/um-nome/blob/main/print%20php.png
+
 C++ - #include <iostream>
 
 int main() {
     std::cout << "Prazer, me chamo Vito!" << std::endl;
     return 0;
 }
+https://github.com/vitovaliera/um-nome/blob/main/print%20c%2B%2B.png
+
+b - Tente executar o seu código
+R: Python - print("Prazer, me chamo Vito!")
 
 PHP - <?php
 echo "Prazer, me chamo Vito!";
 ?>
-https://github.com/vitovaliera/um-nome/blob/main/print%20php.png
 
-b - Tente executar o seu código
-R:
+C++ - #include <iostream>
+
+int main() {
+    std::cout << "Prazer, me chamo Vito!" << std::endl;
+    return 0;
+}
