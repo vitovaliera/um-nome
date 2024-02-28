@@ -8,6 +8,7 @@ C++: Linguagem de programação geral, com ênfase em desempenho, utilizada em s
 
 a - Tente fazer um código mínimo em cada uma delas
 R: Python - print("Prazer, me chamo Vito!")
+https://github.com/vitovaliera/um-nome/blob/main/print%20python.png
 
 C++ - #include <iostream>
 
