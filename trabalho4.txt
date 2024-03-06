@@ -15,3 +15,8 @@ else:
     print("Você é menor de idade.")
 
 2 - Comprovante de execução: 
+(Estrutura de repetição):
+https://github.com/vitovaliera/um-nome/blob/main/print%20python%20repeti%C3%A7%C3%A3o.png
+
+(Tomada de decisão):
+
