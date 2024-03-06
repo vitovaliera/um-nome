@@ -19,4 +19,4 @@ else:
 https://github.com/vitovaliera/um-nome/blob/main/print%20python%20repeti%C3%A7%C3%A3o.png
 
 (Tomada de decisão):
-
+https://github.com/vitovaliera/um-nome/blob/main/print%20python%20tomada%20de%20decis%C3%A3o.png
