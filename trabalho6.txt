@@ -1,0 +1,34 @@
+- Definindo as variáveis
+numeros = [10, 20, 30, 40]
+frase = "Python é uma linguagem de programação poderosa."
+palavra = "Python"
+
+- A média aritmética dos números
+media = sum(numeros) / len(numeros)
+print("Média aritmética dos números:", media)
+
+- O quadrado de um dos números
+numero_quadrado = numeros[0] ** 2
+print("Quadrado do primeiro número:", numero_quadrado)
+
+- O dobro de um dos números
+dobro_numero = numeros[1] * 2
+print("Dobro do segundo número:", dobro_numero)
+
+- A quantidade de letras da palavra
+quantidade_letras = len(palavra)
+print("Quantidade de letras na palavra:", quantidade_letras)
+
+- A quantidade de espaços em branco na frase
+quantidade_espacos = frase.count(' ')
+print("Quantidade de espaços em branco na frase:", quantidade_espacos)
+
+- Se o primeiro número é maior que o segundo
+if numeros[0] > numeros[1]:
+    print("O primeiro número é maior que o segundo.")
+else:
+    print("O primeiro número não é maior que o segundo.")
+
+- Encontrando o maior número
+maior_numero = max(numeros)
+print("O maior número é:", maior_numero)
