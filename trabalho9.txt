@@ -1,0 +1,77 @@
+questao1
+def gravar_nome_em_arquivo():
+    nome = input("Vito ")
+
+    # Abre o arquivo no modo de escrita ('w')
+    with open("nome.txt", "w") as arquivo:
+        # Escreve o nome no arquivo
+        arquivo.write(nome)
+
+    print("Nome gravado com sucesso no arquivo nome.txt!")
+
+# Chama a função para gravar o nome em um arquivo
+gravar_nome_em_arquivo()
+
+questao2
+def imprimir_conteudo_arquivo():
+    # Pedir ao usuário o nome do arquivo de texto
+    nome_arquivo = input("Vito ")
+
+    # Abrir o arquivo no modo de leitura ('r')
+    with open(nome_arquivo, "r") as arquivo:
+        # Ler e imprimir o conteúdo do arquivo
+        conteudo = arquivo.read()
+        print("Conteúdo do arquivo {}:".format(nome_arquivo))
+        print(conteudo)
+
+# Chamar a função para imprimir o conteúdo do arquivo
+imprimir_conteudo_arquivo()
+
+questao3
+def copiar_conteudo_arquivo():
+    # Nome do arquivo de exemplo
+    arquivo_exemplo = "exemplo.txt"
+    # Nome do novo arquivo
+    novo_arquivo = "copia_exemplo.txt"
+
+    # Abrir o arquivo de exemplo no modo de leitura ('r')
+    with open(arquivo_exemplo, "r") as arquivo_origem:
+        # Ler o conteúdo do arquivo de exemplo
+        conteudo = arquivo_origem.read()
+
+        # Abrir o novo arquivo no modo de escrita ('w')
+        with open(novo_arquivo, "w") as arquivo_destino:
+            # Escrever o conteúdo lido do arquivo de exemplo no novo arquivo
+            arquivo_destino.write(conteudo)
+
+    print("Conteúdo do arquivo de exemplo copiado para", novo_arquivo)
+
+# Chamar a função para copiar o conteúdo do arquivo de exemplo
+copiar_conteudo_arquivo()
+
+questao4
+def encontrar_nome_por_numero():
+    # Solicitar ao usuário um número
+    numero = input("23 ")
+
+    # Nome do arquivo de exemplo
+    arquivo_exemplo = "exemplo.txt"
+
+    # Tentar abrir o arquivo de exemplo
+    try:
+        with open(arquivo_exemplo, "r") as arquivo:
+            # Ler todas as linhas do arquivo
+            linhas = arquivo.readlines()
+
+            # Verificar se o número está dentro do intervalo de linhas
+            if 0 < int(numero) <= len(linhas):
+                # Obter o nome correspondente ao número
+                nome = linhas[int(numero) - 1].strip()
+                print("Nome correspondente ao número", numero + ":", nome)
+            else:
+                print("Número fora do intervalo válido.")
+    except FileNotFoundError:
+        print("Arquivo de exemplo não encontrado.")
+
+# Chamar a função para encontrar o nome correspondente ao número
+encontrar_nome_por_numero()
